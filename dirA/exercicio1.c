@@ -9,4 +9,8 @@ int main (void)
         height = get_int ("Altura: ");
     }
     while (height < 1 || height > 8);
+    for (int i = 0; i < height; i++)
+    {
+        printf ("\n");
+    }
 }
