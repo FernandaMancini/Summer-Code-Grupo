@@ -3,10 +3,8 @@
 
 int main (void)
 {
-    int altura = 0;
-    while (altura < 1 || altura > 8)
-    {
-        get_int ("Altura: ")
-
-    }
+    int altura;
+    do{
+        get_int("Altura: ");
+    } while (altura < 1 || altura > 8);
 }
