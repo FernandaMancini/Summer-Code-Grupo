@@ -3,20 +3,20 @@
 
 int main (void)
 {
-    int height, row, colum, space;
+    int altura, fileira, coluna, espaco;
     do
     {
-        height = get_int ("Altura: ");
+        altura = get_int ("Altura: ");
     }
-    while (height < 1 || height > 8);
+    while (altura < 1 || altura > 8);
 
-    for (row = 0; row < height; row++)
+    for (fileira = 0; fileira < altura; fileira++)
     {
-        for (space = 0; space < height - row - 1; space ++)
+        for (espaco = 0; espaco < altura - fileira - 1; espaco ++)
         {
             printf (" ");
         }
-        for (colum = 0; colum <= row; colum++)
+        for (coluna = 0; coluna <= fileira; coluna++)
         {
             printf ("#");
         }
