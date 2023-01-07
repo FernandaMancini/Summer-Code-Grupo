@@ -3,7 +3,7 @@
 
 int main (void)
 {
-    int inicio, fim, tot, i;
+    int inicio, fim, i;
     inicio = 0;
     do
     {
@@ -15,8 +15,8 @@ int main (void)
         fim = get_int ("Fim: ");
     }
     while (fim < inicio);
-    while (tot < fim){
-        tot = (inicio + (inicio/3) - (inicio/4));
+    while (inicio < fim){
+        inicio = (inicio + (inicio/3) - (inicio/4));
         i ++;
     }
     printf (tot)
