@@ -7,7 +7,8 @@ int main (void)
     inicio = 0;
     do
     {
-        get_int ("Inicio: ");
-    } while (inicio < 9);
+        inicio = get_int ("Inicio: ");
+    }
+    while (inicio < 9);
 
 }
