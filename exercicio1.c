@@ -3,11 +3,10 @@
 
 int main (void)
 {
-    int altura;
+    int altura = 0;
     while (altura < 1 || altura > 8)
     {
         get_int ("Altura: ")
-        printf (" \n");
 
     }
 }
