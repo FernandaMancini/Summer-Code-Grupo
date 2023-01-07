@@ -5,6 +5,7 @@ int main (void)
 {
     int inicio, fim, i;
     inicio = 0;
+    i = 0;
     do
     {
         inicio = get_int ("Inicio: ");
@@ -19,6 +20,6 @@ int main (void)
         inicio = inicio + (inicio/3) - (inicio/4);
         i ++;
     }
-    printf ("%i", &i)
+    printf ("Anos: %i", i);
 
 }
