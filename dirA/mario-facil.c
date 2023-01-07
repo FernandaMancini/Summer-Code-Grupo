@@ -3,15 +3,16 @@
 
 int main (void)
 {
-    int height, i, j, space;
+    int height, row, j, space;
     do
     {
         height = get_int ("Altura: ");
     }
     while (height < 1 || height > 8);
-    for (i = 0; i < height; i++)
+
+    for (row = 0; row < height; row++)
     {
-        for (space = 0; space < space - height - j -1; space ++)
+        for (space = 0; space < space - height - row-1; space ++)
         {
             printf (" ");
         }
