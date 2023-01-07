@@ -11,6 +11,7 @@ int main (void)
     while (height < 1 || height > 8);
     for (i = 0; i < height; i++)
     {
+        for (space = 0; space < height - j; )
         for (j = 0; j <= i; j++)
         {
             printf ("#");
