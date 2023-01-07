@@ -3,7 +3,7 @@
 
 int main (void)
 {
-    int height, i, j, space;
+    int height, i, j;
     do
     {
         height = get_int ("Altura: ");
@@ -11,10 +11,6 @@ int main (void)
     while (height < 1 || height > 8);
     for (i = 0; i < height; i++)
     {
-        for (space = 0; space < height - j; )
-        {
-        printf ("  ");
-        }
         for (j = 0; j <= i; j++)
         {
             printf ("#");
