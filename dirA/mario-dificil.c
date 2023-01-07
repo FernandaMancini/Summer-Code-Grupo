@@ -3,24 +3,24 @@
 
 int main (void)
 {
-    int height, i, j;
+    int height, row, colum, space;
     do
     {
         height = get_int ("Altura: ");
     }
     while (height < 1 || height > 8);
-    for (i = 0; i < height; i++)
+
+    for (row = 0; row < height; row++)
     {
-        for (j = 0; j <= i; j++)
+        for (space = 0; space < height - row - 1; space ++)
         {
-            
-            printf ("#");
+            printf (" ");
         }
-        printf ("   ");
-        for (j = 0; j <= i; j++)
+        for (colum = 0; colum <= row; colum++)
         {
             printf ("#");
         }
+        printf ("  ");
         printf ("\n");
     }
 }
