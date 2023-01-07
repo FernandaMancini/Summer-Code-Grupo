@@ -19,6 +19,6 @@ int main (void)
         inicio = inicio + (inicio/3) - (inicio/4);
         i ++;
     }
-    printf (tot)
+    printf ("%i", &i)
 
 }
