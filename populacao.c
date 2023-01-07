@@ -20,6 +20,6 @@ int main (void)
         inicio = inicio + (inicio/3) - (inicio/4);
         i ++;
     }
-    printf ("Anos: %i", i);
+    printf ("Anos: %i\n", i);
 
 }
