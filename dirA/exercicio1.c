@@ -3,15 +3,15 @@
 
 int main (void)
 {
-    int height;
+    int height, i, j;
     do
     {
         height = get_int ("Altura: ");
     }
     while (height < 1 || height > 8);
-    for (int i = 0; i < height; i++)
+    for (i = 0; i < height; i++)
     {
-        for (int j = 0; j < height; j++)
+        for (j = 0; j < height; j++)
         {
             printf ("#");
         }
