@@ -7,6 +7,9 @@ int main (void)
     do{
         altura = get_int("Altura: ");
     } while (altura < 1 || altura > 8);
+    for (i = 0; i < altura; i ++){
+        
+    }
 
 
 }
