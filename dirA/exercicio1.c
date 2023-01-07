@@ -4,6 +4,6 @@
 int main (void)
 {
     int altura;
-    altura = get_int("")
+    altura = get_int("Altura: ");
 
 }
