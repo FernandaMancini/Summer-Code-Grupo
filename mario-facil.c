@@ -3,7 +3,7 @@
 
 int main (void)
 {
-    int height, row, j, space;
+    int height, row, colum, space;
     do
     {
         height = get_int ("Altura: ");
@@ -16,7 +16,7 @@ int main (void)
         {
             printf (" ");
         }
-        for (j = 0; j <= i; j++)
+        for (colum = 0; colum <= row; colum++)
         {
             printf ("#");
         }
