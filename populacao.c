@@ -10,5 +10,10 @@ int main (void)
         inicio = get_int ("Inicio: ");
     }
     while (inicio < 9);
+    do
+    {
+        fim = get_int ("Fim: ");
+    }
+    while (fim < inicio);
 
 }
