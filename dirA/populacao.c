@@ -16,7 +16,7 @@ int main (void)
     }
     while (fim < inicio);
     while (inicio < fim){
-        inicio = (inicio + (inicio/3) - (inicio/4));
+        inicio = inicio + (inicio/3) - (inicio/4);
         i ++;
     }
     printf (tot)
