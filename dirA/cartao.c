@@ -21,7 +21,7 @@ int main(void)
     while (cc > 0)
     {
         int ultDigit = cc % 10;
-        soma = soma + lastDigit;
+        soma = soma + ultDigit;
         cc = cc / 100;
     }
 
@@ -29,8 +29,8 @@ int main(void)
     while (cc > 0)
     {
         int ultDigit = cc % 10;
-        int timesTwo = ultDigit * 2;
-        soma = soma + (timesTwo % 10) + (timesTwo / 10);
+        int vezesDois = ultDigit * 2;
+        soma = soma + (vezesDois % 10) + (vezesDois / 10);
        cc = cc / 100;
     }
 
@@ -46,20 +46,20 @@ int main(void)
         divisor = divisor * 10;
     }
 
-    int firstDigit = num / divisor;
-    int firstTwoDigits = num / (divisor / 10);
+    int priDigit = num / divisor;
+    int priDoisDigit = num / (divisor / 10);
 
     if (soma % 10 == 0)
     {
-        if (firstDigit == 4 && (count == 13 || count == 16))
+        if (priDigit == 4 && (count == 13 || count == 16))
         {
              strcpy(result, "VISA");
         }
-        else if ((firstTwoDigits == 34 || firstTwoDigits == 37) && count == 15)
+        else if ((priDoisDigit == 34 || priDoisDigit == 37) && count == 15)
         {
             strcpy(result, "AMEX");
         }
-        else if ((50 < firstTwoDigits && firstTwoDigits < 56) && count == 16)
+        else if ((50 < priDoisDigit && priDoisDigit < 56) && count == 16)
         {
             strcpy(result, "MASTERCARD");
         }
