@@ -4,15 +4,15 @@
 
 int main(void)
 {
-    long creditCardNumber;
+    long num;
 
     do
     {
-        creditCardNumber = get_long ("Numero do cartao: ");
+       num = get_long ("Numero do cartao: ");
     }
-    while (creditCardNumber <= 0);
+    while (num <= 0);
 
-    long cc = creditCardNumber;
+    long cc = num;
     int soma = 0;
     int count = 0;
     long divisor = 10;
@@ -25,7 +25,7 @@ int main(void)
         cc = cc / 100;
     }
 
-    cc = creditCardNumber / 10;
+    cc = num / 10;
     while (cc > 0)
     {
         int lastDigit = cc % 10;
@@ -34,7 +34,7 @@ int main(void)
        cc = cc / 100;
     }
 
-    cc = creditCardNumber;
+    cc = num;
     while (cc != 0)
     {
         cc = cc / 10;
@@ -46,8 +46,8 @@ int main(void)
         divisor = divisor * 10;
     }
 
-    int firstDigit = creditCardNumber / divisor;
-    int firstTwoDigits = creditCardNumber / (divisor / 10);
+    int firstDigit = num / divisor;
+    int firstTwoDigits = num / (divisor / 10);
 
     if (soma % 10 == 0)
     {
