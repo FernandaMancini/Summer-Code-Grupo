@@ -3,6 +3,7 @@
 
 int main(void)
 {
+   int n, cc;
    long n = get_long("Numero do cartao: ");
    int i = 0;
    cc long = n;
@@ -15,5 +16,5 @@ int main(void)
    {
     printf ("INVALIDO! \n");
    }
-   
+
 }
