@@ -29,7 +29,7 @@ int main(void)
       cc = cc/100;
    }
    cc = n;
-   while (cc < 0)
+   while (cc != 0)
    {
       cc = cc/10;
       count ++;
