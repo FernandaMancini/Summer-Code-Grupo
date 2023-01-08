@@ -4,9 +4,9 @@
 int main(void)
 {
    int cc;
-   long n = get_long("Numero do cartao: ");
+   long n = get_int("Numero do cartao: ");
    int i = 0;
-   cc long = n;
+   cc  = n;
    while (cc > 0)
    {
     cc = cc/10;
