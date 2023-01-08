@@ -3,18 +3,30 @@
 
 int main(void)
 {
-   int cc;
-   long n = get_int("Numero do cartao: ");
-   int i = 0;
-   cc  = n;
+   long n;
+   do
+   {
+      n = get_long("Numero do cartao: ");
+   } while (n <= 0);
+
+   long cc = n;
+   int soma;
+
    while (cc > 0)
    {
-    cc = cc/10;
-    i++;
+      int ultdig = cc % 10;
+      soma = soma + ultdig;
+      cc = cc/100;
    }
-   if (i != 13 && i != 15 && i != 16)
+
+   cc = n/10;
+   while (c > 0)
    {
-    printf ("INVALIDO! \n");
+      int ultdig = cc % 10;
+      int vezesdois = ultdig * 2;
+      soma = soma + (vezesdois /10);
+      cc = cc/100;
    }
+   
 
 }
