@@ -12,39 +12,35 @@ int main(void)
     }
     while (creditCardNumber <= 0);
 
-    long workingCC = creditCardNumber;
-    int sum = 0;
+    long cc = creditCardNumber;
+    int soma = 0;
     int count = 0;
     long divisor = 10;
     char result[11];
 
-    // 1st case
-    while (workingCC > 0)
+    while (cc > 0)
     {
         int lastDigit = workingCC % 10;
-        sum = sum + lastDigit;
-        workingCC = workingCC / 100;
+        soma = soma + lastDigit;
+        cc = cc / 100;
     }
 
-    // 2nd case
-    workingCC = creditCardNumber / 10;
-    while (workingCC > 0)
+    cc = creditCardNumber / 10;
+    while (cc > 0)
     {
-        int lastDigit = workingCC % 10;
+        int lastDigit = cc % 10;
         int timesTwo = lastDigit * 2;
-        sum = sum + (timesTwo % 10) + (timesTwo / 10);
-        workingCC = workingCC / 100;
+        soma = soma + (timesTwo % 10) + (timesTwo / 10);
+       cc = cc / 100;
     }
 
-    // length of the number / digit count
-    workingCC = creditCardNumber;
+    cc = creditCardNumber;
     while (workingCC != 0)
     {
-        workingCC = workingCC / 10;
+        cc = cc / 10;
         count++;
     }
 
-    // divisor
     for (int i = 0; i < count - 2; i++)
     {
         divisor = divisor * 10;
@@ -53,7 +49,7 @@ int main(void)
     int firstDigit = creditCardNumber / divisor;
     int firstTwoDigits = creditCardNumber / (divisor / 10);
 
-    if (sum % 10 == 0)
+    if (soma % 10 == 0)
     {
         if (firstDigit == 4 && (count == 13 || count == 16))
         {
