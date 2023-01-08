@@ -58,7 +58,7 @@ int main(void)
     {
         if (firstDigit == 4 && (count == 13 || count == 16))
         {
-            strcpy(result, "VISA");
+            result = "VISA";
         }
         else if ((firstTwoDigits == 34 || firstTwoDigits == 37) && count == 15)
         {
