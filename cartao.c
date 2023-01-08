@@ -20,7 +20,7 @@ int main(void)
 
     while (cc > 0)
     {
-        int lastDigit = cc % 10;
+        int ultDigit = cc % 10;
         soma = soma + lastDigit;
         cc = cc / 100;
     }
@@ -28,8 +28,8 @@ int main(void)
     cc = num / 10;
     while (cc > 0)
     {
-        int lastDigit = cc % 10;
-        int timesTwo = lastDigit * 2;
+        int ultDigit = cc % 10;
+        int timesTwo = ultDigit * 2;
         soma = soma + (timesTwo % 10) + (timesTwo / 10);
        cc = cc / 100;
     }
