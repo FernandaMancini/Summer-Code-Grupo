@@ -20,13 +20,13 @@ int main(void)
    }
 
    cc = n/10;
-   while (c > 0)
+   while (cc > 0)
    {
       int ultdig = cc % 10;
       int vezesdois = ultdig * 2;
       soma = soma + (vezesdois /10);
       cc = cc/100;
    }
-   
+
 
 }
