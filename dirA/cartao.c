@@ -20,7 +20,7 @@ int main(void)
 
     while (cc > 0)
     {
-        int lastDigit = workingCC % 10;
+        int lastDigit = cc % 10;
         soma = soma + lastDigit;
         cc = cc / 100;
     }
@@ -35,7 +35,7 @@ int main(void)
     }
 
     cc = creditCardNumber;
-    while (workingCC != 0)
+    while (cc != 0)
     {
         cc = cc / 10;
         count++;
