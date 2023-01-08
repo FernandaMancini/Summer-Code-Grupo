@@ -53,12 +53,11 @@ int main(void)
     int firstDigit = creditCardNumber / divisor;
     int firstTwoDigits = creditCardNumber / (divisor / 10);
 
-    // final checks
     if (sum % 10 == 0)
     {
         if (firstDigit == 4 && (count == 13 || count == 16))
         {
-            result = "VISA";
+             strcpy(result, "VISA");
         }
         else if ((firstTwoDigits == 34 || firstTwoDigits == 37) && count == 15)
         {
