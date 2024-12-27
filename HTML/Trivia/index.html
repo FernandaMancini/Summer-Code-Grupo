@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Trivia</h1>
+
+<!-- Parte 1: Perguntas de múltipla escolha -->
+<div class="question" id="multiple-choice">
+    <h3>Qual é a capital da França?</h3>
+    <button onclick="checkAnswer(this, 'wrong')">Madri</button>
+    <button onclick="checkAnswer(this, 'correct')">Paris</button>
+    <button onclick="checkAnswer(this, 'wrong')">Roma</button>
+    <p class="feedback" id="feedback-mc1"></p>
+</div>
+
+<div class="question" id="multiple-choice">
+    <h3>Quem escreveu "Hamlet"?</h3>
+    <button onclick="checkAnswer(this, 'wrong')">Charles Dickens</button>
+    <button onclick="checkAnswer(this, 'correct')">William Shakespeare</button>
+    <button onclick="checkAnswer(this, 'wrong')">Jane Austen</button>
+    <p class="feedback" id="feedback-mc2"></p>
+</div>
+
+<div class="question" id="multiple-choice">
+    <h3>Qual é o maior planeta do sistema solar?</h3>
+    <button onclick="checkAnswer(this, 'wrong')">Terra</button>
+    <button onclick="checkAnswer(this, 'correct')">Júpiter</button>
+    <button onclick="checkAnswer(this, 'wrong')">Marte</button>
+    <p class="feedback" id="feedback-mc3"></p>
+</div>
+
+<!-- Parte 2: Perguntas de resposta livre -->
+<div class="question" id="text-input">
+    <h3>Qual é o resultado de 5 + 3?</h3>
+    <input type="text" id="answer-input1" placeholder="Digite sua resposta">
+    <button onclick="checkTextAnswer('answer-input1', 'feedback-text1', '8')">Confirmar</button>
+    <p class="feedback" id="feedback-text1"></p>
+</div>
+
+<div class="question" id="text-input">
+    <h3>Em que ano o homem pisou na Lua pela primeira vez?</h3>
+    <input type="text" id="answer-input2" placeholder="Digite sua resposta">
+    <button onclick="checkTextAnswer('answer-input2', 'feedback-text2', '1969')">Confirmar</button>
+    <p class="feedback" id="feedback-text2"></p>
+</div>
+
+<div class="question" id="text-input">
+    <h3>Quantos lados tem um hexágono?</h3>
+    <input type="text" id="answer-input3" placeholder="Digite sua resposta">
+    <button onclick="checkTextAnswer('answer-input3', 'feedback-text3', '6')">Confirmar</button>
+    <p class="feedback" id="feedback-text3"></p>
+</div>
+
+<div class="question" id="text-input">
+    <h3>Qual elemento químico tem o símbolo O?</h3>
+    <input type="text" id="answer-input4" placeholder="Digite sua resposta">
+    <button onclick="checkTextAnswer('answer-input4', 'feedback-text4', 'Oxigênio')">Confirmar</button>
+    <p class="feedback" id="feedback-text4"></p>
+</div>
+
+<div class="question" id="text-input">
+    <h3>Qual é a capital do Brasil?</h3>
+    <input type="text" id="answer-input5" placeholder="Digite sua resposta">
+    <button onclick="checkTextAnswer('answer-input5', 'feedback-text5', 'Brasília')">Confirmar</button>
+    <p class="feedback" id="feedback-text5"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
