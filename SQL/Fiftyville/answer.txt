@@ -1,0 +1,3 @@
+O Ladrão é: Ernest
+O Ladrão Escapou para: London
+Seu Cúmplice é: Berthold
