@@ -8,32 +8,50 @@
     <span><strong>Sobre o Programa</strong></span>
 </h2>
 
-O Summer Code 2022 foi uma iniciativa da Fundação Estudar, com foco em introduzir jovens do Ensino Fundamental e Médio aos fundamentos da programação e ciência da computação. Inspirado no renomado curso CS50 da Universidade de Harvard, o programa ocorreu de 6 de janeiro a 6 de fevereiro de 2023, oferecendo um aprendizado intensivo e prático.
+### 🎯 Objetivos do Programa
+- Ensinar linguagens de programação como **C**, **Python** e **JavaScript**.  
+- Abordar conceitos fundamentais de ciência da computação: **algoritmos**, **estruturas de dados** e **desenvolvimento de software**.  
+- Promover a criação de **projetos reais** para consolidar o aprendizado.  
 
-### Objetivos
-- Capacitar jovens em linguagens de programação como C, Python e JavaScript.
-- Ensinar conceitos fundamentais de ciência da computação, como algoritmos, estruturas de dados e desenvolvimento de software.
-- Desenvolver habilidades práticas através da criação de projetos reais.
-Estrutura
-- Método: Aulas teóricas, práticas e acompanhamento por monitores.
-- Formato: Grupos de 10 participantes, com mentorias individuais e em equipe.
+### 🛠️ Estrutura
+- **Método**: Aulas teóricas, práticas e suporte contínuo de monitores.  
+- **Formato**: Grupos de 10 participantes, com mentorias individuais e coletivas.  
 
-### Tecnologias Utilizadas
-- C
-- Python
-- JavaScript
-- HTML & CSS
+### 🚀 Tecnologias Utilizadas
+- **C**  
+- **Python**  
+- **JavaScript**  
+- **HTML & CSS**  
 
-## Projetos Desenvolvidos: 
-- Foi desenvolvido uma série de projetos, detre eles os exercícios do CC50, outros exercícios. Também foi realizado o Projeto Final
+---
 
-### Projeto Final
-**Tech Girl Space:** É um site para incentivar mulheres na tecnologia, liderança nesse setor e inclusão das mulheres no mundo da tecnologia, além de quebrar o paradigma que tecnologia não para mulher.
+## 🌟 Projetos Desenvolvidos
+O programa proporcionou uma série de desafios, incluindo os exercícios do **CC50** e outros problemas de lógica e programação. O destaque foi o **Projeto Final**.  
 
-![Vídeo Projeto Final](https://youtu.be/a1cOndoTG7A?si=k8WqTVqjE-TNvrHR)
+### 🎨 Projeto Final: **Tech Girl Space**  
+Um site criado para incentivar a participação de mulheres na tecnologia, promovendo liderança e inclusão, além de desafiar o paradigma de que "tecnologia não é para mulheres".  
 
-Graça ao esforço e dedicação ao nosso grupo e ajuda dos monitores, o projeto conseguiu chegar em 1° Lugar no Summer Code. Agora, podemos evoluir mais ainda esse projeto e tornar a área de tecnologia mais diversificado e igualitário. 
-![Primeiro Lugar](https://github.com/user-attachments/assets/8895430c-cbb5-49d5-95b1-92ebcd96116c)
+[![Vídeo do Projeto Final](https://img.youtube.com/vi/a1cOndoTG7A/0.jpg)](https://youtu.be/a1cOndoTG7A)
 
-## Sobre a Fundação Estudar
-A Fundação Estudar é uma organização que promove o desenvolvimento de jovens talentos no Brasil, oferecendo oportunidades em educação, liderança e tecnologia.
+---
+
+## 🏆 Conquista  
+Graças ao esforço e dedicação do nosso grupo, com o suporte incrível dos monitores, o projeto **Tech Girl Space** alcançou o **1º lugar** no Summer Code 2022! Esta vitória é apenas o começo de uma jornada para tornar o setor tecnológico mais inclusivo e igualitário.  
+
+<img align="center" src="https://github.com/user-attachments/assets/8895430c-cbb5-49d5-95b1-92ebcd96116c" alt="Primeiro Lugar">
+<br><br>
+
+**Aqui está o vídeo completo da premiação:**  
+
+[![Vídeo Premiação](https://img.youtube.com/vi/E1o3g9FoP74/0.jpg)](https://www.youtube.com/live/E1o3g9FoP74?si=jh9n34y_2KtmqxJT)
+
+---
+
+<h2>
+     <img align="center" width="40px" src="https://github.com/user-attachments/assets/f69300cd-1889-4d24-a9ed-b3a6fce6907d">
+    <span><strong>Sobre a Fundação Estudar</strong></span>
+</h2>
+
+A **Fundação Estudar** é uma organização comprometida com o desenvolvimento de jovens talentos no Brasil, oferecendo oportunidades em educação, liderança e tecnologia.  
+
+Explore mais em [Fundação Estudar](https://www.estudar.org.br/).
