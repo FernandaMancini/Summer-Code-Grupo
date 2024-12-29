@@ -28,8 +28,14 @@
 ## 🌟 Projetos Desenvolvidos
 O programa proporcionou uma série de desafios, incluindo os exercícios do **CC50** e outros problemas de lógica e programação. O destaque foi o **Projeto Final**.  
 
-### 🎨 Projeto Final: **Tech Girl Space**  
+<h2>
+     <img align="center" width="40px" src="https://github.com/user-attachments/assets/f8ca9d86-7476-4d15-a17a-d4310f4ce87e">
+    <span><strong>Projeto Final: Tech Girl Space</strong></span>
+</h2>
+  
 Um site criado para incentivar a participação de mulheres na tecnologia, promovendo liderança e inclusão, além de desafiar o paradigma de que "tecnologia não é para mulheres".  
+
+**Para acessar o repositório completo do projeto:** [Acesse aqui](https://github.com/Tech-Space-Girls)
 
 [![Vídeo do Projeto Final](https://img.youtube.com/vi/a1cOndoTG7A/0.jpg)](https://youtu.be/a1cOndoTG7A)
 
